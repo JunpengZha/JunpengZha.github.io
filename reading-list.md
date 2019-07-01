@@ -42,4 +42,5 @@
 - [The Not So Short Introduction to LATEX](./public_html/Latex/lshort.pdf)
 
 - [The Great, Big List of LATEX Symbols ](./public_html/Latex/LaTex_symbols.pdf)
-- [xymatrix](./public_html/Latex/xymatrix.pdf)
+- [XYMatrix](./public_html/Latex/xymatrix.pdf)
+
