@@ -23,6 +23,7 @@ I am now a doctor student in Nanjing University. My research interests are in th
 - [CompCert Backend](./public_html/CompCert/compcert-backend.pdf)
 - [CompCert Memory Model](./public_html/CompCert/compcert-memory-model.pdf)
 - [CompCertTSO](./public_html/CompCert/CompCertTSO.pdf)
+- [Oracle Semantics](./public_html/CompCert/Oracle-Semantics.pdf)
 
 ##### OS Kernel Verification
 - Ronghui Gu, et al. *Certifed Concurrent Abstraction Layers* ([copy](./public_html/OSVeri/Certified_Concurrent_Abstract_Layer))
