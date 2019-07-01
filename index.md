@@ -17,7 +17,14 @@ I am now a doctor student in Nanjing University. My research interests are in th
 - Yu Guo, et al. *Modular Verification of Concurrent Thread Management* (Extended Version) ([copy](./public_html/Certi-Machine-Code/Module_Verification_of_Concurrent_Thread_Management.pdf))
 
 ##### CompCert 
-- [CASCompCert](./public_html/CompCert/CASComp.pdf)
+- [CASCompCert-final-version](./public_html/CompCert/CASComp.pdf)
+- [CASCompCert-popl-draft](./public_html/CompCert/paper.pdf)
+- [CASCompCert-original-version](./public_html/CompCert/TR-Jiang.pdf)
 - [CompCert Backend](./public_html/CompCert/compcert-backend.pdf)
 - [CompCert Memory Model](./public_html/CompCert/compcert-memory-model.pdf)
-- [CompCertTSO](.//public_html/CompCert/CompCertTSO.pdf)
+- [CompCertTSO](./public_html/CompCert/CompCertTSO.pdf)
+
+##### OS Kernel Verification
+- Ronghui Gu, et al. *Certifed Concurrent Abstraction Layers* ([copy](./public_html/OSVeri/Certified_Concurrent_Abstract_Layer))
+- [Preemptive OS Kernel Verification Framework](./public_html/OSVeri/framework.pdf)
+- Hao Chen, et al. *Toward Compositional Veriﬁcation of Interruptible OS Kernels and Device Drivers* ([copy](./public_html/OSVeri/Toward_Compositional_Veriﬁcation_of_Interruptible_OS_Kernels_and_Device_Drivers.pdf))
