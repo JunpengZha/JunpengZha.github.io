@@ -12,3 +12,12 @@ I am now a doctor student in Nanjing University. My research interests are in th
 - [arm manual](./public_html/ARM/arm_manual.pdf)
 - Anton Podkopaev, et al. *Promising Compilation to ARMv8 POP* (Extended Version) ([copy](./public_html/ARM/ecoop2017-arm-full.pdf))
 - Christonpher Pulte, et al. *Simplifying ARM Concurrency: Multicopy-Atomic Axiomatic and Operational Models for ARMv8* ([copy](./public_html/ARM/Simplifying-ARM-Concurrency-Multicopy-Atomic.pdf))
+
+##### Certify Machine Code 
+- Yu Guo, et al. *Modular Verification of Concurrent Thread Management* (Extended Version) ([copy](./public_html/Certi-Machine-Code/Module_Verification_of_Concurrent_Thread_Management.pdf))
+
+##### CompCert 
+- [CASCompCert](./public_html/CompCert/CASComp.pdf)
+- [CompCert Backend](./public_html/CompCert/compcert-backend.pdf)
+- [CompCert Memory Model](./public_html/CompCert/compcert-memory-model.pdf)
+- [CompCertTSO](.//public_html/CompCert/CompCertTSO.pdf)
