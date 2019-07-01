@@ -1,4 +1,4 @@
-# Junpeng Zha （查君鹏） 
+# Junpeng Zha （查君鹏）
 > mail: 1396520996@163.com
 
 I am now a doctor student in Nanjing University. My research interests are in the area of formal methods, programming language and building high-confident software. Building high-confident software has been focused by all over the world, because of the widely use of computer system. And formal verification is based on rigorous mathematical theories and methods and can provide a strong guarantee for the correctness of software.  
