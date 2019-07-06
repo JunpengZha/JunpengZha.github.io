@@ -1,2 +1,3 @@
 - [Formalizing SPARCv8 Instruction Set Architecture in Coq](./public_html/SPARC/SPARC_semantics.pdf) (Jiawei Wang's Undergraduate thesis)
 - [The SPARC Architecture Manual](./public_html/SPARC/The SPARC Architecture Manual.pdf) (version 8)
+- [SPARC 结构与实时内核的移植](http://www.go-gddq.com/down/2011-12/11120922058158.pdf)
