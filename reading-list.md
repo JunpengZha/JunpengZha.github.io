@@ -19,7 +19,7 @@
 - [CompCert Memory Model](./public_html/CompCert/compcert-memory-model.pdf)
 - [CompCertTSO](./public_html/CompCert/CompCertTSO.pdf)
 - [Stack-Aware Compcert](./public_html/CompCert/An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code.pdf)
-- [Oracle Semantics](./public_html/CompCert/Oracle-Semantics.pdf)
+- [Oracle Semantics](https://www.cs.princeton.edu/~appel/papers/concurrent.pdf) (here is a local [copy](./public_html/CompCert/Oracle-Semantics.pdf)) 
 
 ##### OS Kernel Verification
 
