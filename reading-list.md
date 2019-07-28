@@ -31,6 +31,7 @@
 
 - [VST-Floyd](./public_html/Verify-C/VST-Floyd.pdf)
 - [Concurrent Abstract Predicates](./public_html/Verify-C/CAP.pdf)
+- [iCAP:Impredicative Concurrent Abstract Predicates](./public_html/Verify-C/iCAP.pdf) (PPT slides [1](./public_html/Verify-C/iCAP-slides1.pdf) [2](./public_html/Verify-C/iCAP-slides2.pdf))
 
 ##### Relaxed Memory Model
 
