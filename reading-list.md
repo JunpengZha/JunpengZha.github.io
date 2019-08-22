@@ -9,6 +9,7 @@
 ##### Machine Code Verification 
 
 - Yu Guo, et al. *Modular Verification of Concurrent Thread Management* (Extended Version) ([copy](./public_html/Certi-Machine-Code/Module_Verification_of_Concurrent_Thread_Management.pdf))
+- Ni, et al. *Using XCAP to Certify Realistic Systems Code: Machine Context Management* ([pdf](http://flint.cs.yale.edu/certikos/publications/mctxtr.pdf))
 
 ##### CompCert 
 
