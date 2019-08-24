@@ -41,7 +41,7 @@
 - Kasper Svendsen, et al. *A Separation Logic for a Promising Semantics* ([copy](./public_html/mem_model/A_Separation_Logic_for_a_Promising_Semantics.pdf))
 - Anton Podkopaev, et al. *Bridging the Gap between Programming Languages and Hardware Weak Memory Models* ([copy](./public_html/mem_model/pl_mem.pdf))
 - Christopher Pulte, et al. *Promising-ARM/RISC-V: A Simpler and Faster Operational Concurrency Model* ([copy](./public_html/mem_model/Promising-ARM_RISC-V.pdf)) ([coq impl](https://github.com/snu-sf/promising-arm/)) ([tr](https://www.cl.cam.ac.uk/~jp622/promising-arm-riscv.pdf))
-- Azalea Raad, et al. *On Library Correctness under Weak Memory Consistency* ([copy](./public_html/mem_model/Libraries-POPL-2019))
+- Azalea Raad, et al. *On Library Correctness under Weak Memory Consistency* ([copy](./public_html/mem_model/Libraries-POPL-2019.pdf))
 - Hans-J. Boehm, et al. *Threads Cannot be Implemented as a Library* ([copy](./public_html/mem_model/Threads_can't_be_implemented_as_a_library.pdf))
 - [PhD thesis of Yang Zhang](./public_html/mem_model/张扬论文_v3.pdf)
 
