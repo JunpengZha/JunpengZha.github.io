@@ -48,7 +48,7 @@
 ##### Latex
 
 - [The Not So Short Introduction to LATEX](./public_html/Latex/lshort.pdf)
-
 - [The Great, Big List of LATEX Symbols ](./public_html/Latex/LaTex_symbols.pdf)
 - [XYMatrix](./public_html/Latex/xymatrix.pdf)
+- [Strunk & White - The Elements of Style, 4th Edition](./public_html/Latex/Strunk & White - The Elements of Style, 4th Edition.pdf)
 
