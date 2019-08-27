@@ -45,6 +45,8 @@
 - Hans-J. Boehm, et al. *Threads Cannot be Implemented as a Library* ([copy](./public_html/mem_model/Threads_can't_be_implemented_as_a_library.pdf))
 - [PhD thesis of Yang Zhang](./public_html/mem_model/张扬论文_v3.pdf)
 - Viktor Vafeiadis, et al. *Relaxed Separation Logic: A Program Logic for C11 Concurrency* ([copy](./public_html/mem_model/Relaxed Separation Logic.pdf))
+- [Lecture : Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
+- [Taming release-acquire consistency](https://www.cs.tau.ac.il/~orilahav/papers/popl16.pdf)
 
 ##### Latex
 
