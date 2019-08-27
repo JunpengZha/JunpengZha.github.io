@@ -44,6 +44,7 @@
 - Azalea Raad, et al. *On Library Correctness under Weak Memory Consistency* ([copy](./public_html/mem_model/Libraries-POPL-2019.pdf))
 - Hans-J. Boehm, et al. *Threads Cannot be Implemented as a Library* ([copy](./public_html/mem_model/Threads_can't_be_implemented_as_a_library.pdf))
 - [PhD thesis of Yang Zhang](./public_html/mem_model/张扬论文_v3.pdf)
+- Viktor Vafeiadis, et al. *Relaxed Separation Logic: A Program Logic for C11 Concurrency* ([copy](./public_html/mem_model/Relaxed Separation Logic.pdf))
 
 ##### Latex
 
