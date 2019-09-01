@@ -18,3 +18,7 @@ I am now a doctor student in Nanjing University. My research interests are in th
 - **Junpeng Zha**, Xinyu Feng, and Lei Qiao. Modular Verification of SPARCv8 Code. *16th Asian Symposium on Programming Languages and Systems* (**APLAS’18**), Wellington, New Zealand, pages 245-263, December 2018. ([copy](./public_html/SPARC/paper_28.pdf)) ([more](sparcv8.html) informations about SPARCv8)
 
 ### Here is a reading [list](reading-list.html)
+
+### Possible Research Works in My PhD
+
+- Let the CASCompCert supports more [optimizations for concurrent program](optimization-concurrent-prog.html) ?
