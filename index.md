@@ -22,3 +22,7 @@ I am now a doctor student in Nanjing University. My research interests are in th
 ### Possible Research Works in My PhD
 
 - Let the CASCompCert supports more [optimizations for concurrent program](optimization-concurrent-prog.html) ?
+
+### Recent Interesting Works
+
+[link](recent-interest-paper.html)
