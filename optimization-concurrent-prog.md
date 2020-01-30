@@ -3,4 +3,5 @@
 - Validating Optimizations of Concurrent C/C++ Programs ([pdf](https://plv.mpi-sws.org/validc/paper.pdf))
 - Safe Optimisations for Shared-Memory Concurrent Programs ([pdf](https://www.cl.cam.ac.uk/~pes20/weakmemory/transsafety.pdf))
 - [Compiler Optimization](http://compileroptimizations.com/index.html)
+- Performance Evaluation of Intel R Transactional Synchronization Extensions for High-Performance Computing ([pdf](./Compiler/SC13-TSX.pdf))
 
