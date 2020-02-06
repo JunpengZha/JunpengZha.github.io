@@ -5,4 +5,5 @@
 - [Compiler Optimization](http://compileroptimizations.com/index.html)
 - Performance Evaluation of Intel R Transactional Synchronization Extensions for High-Performance Computing ([pdf](./Compiler/SC13-TSX.pdf))
 - Synchronization Transformations for Parallel Computing ([pdf](./Compiler/Synchronization Transformations for Parallel Computing.pdf))
+- Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it ([pdf](./Compiler/c11comp.pdf))
 
