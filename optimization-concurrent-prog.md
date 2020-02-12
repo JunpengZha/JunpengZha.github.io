@@ -7,4 +7,5 @@
 - Synchronization Transformations for Parallel Computing ([pdf](./Compiler/Synchronization Transformations for Parallel Computing.pdf))
 - Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it ([pdf](./Compiler/c11comp.pdf))
 - Removing Unnecessary Synchronization in Java ([pdf](./Compiler/Removing Unnecessary Synchronization in Java.pdf))
+- Compositional Verification of Compiler Optimisations on Relaxed Memory (ESOP'18, [pdf](./Compiler/Compositional Verification of Compiler Optimisations on Relaxed Memory.pdf))
 
