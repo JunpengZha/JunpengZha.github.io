@@ -9,4 +9,4 @@
 - Removing Unnecessary Synchronization in Java ([pdf](./Compiler/Removing Unnecessary Synchronization in Java.pdf))
 - Compositional Verification of Compiler Optimisations on Relaxed Memory (ESOP'18, [pdf](./Compiler/Compositional Verification of Compiler Optimisations on Relaxed Memory.pdf))
 - Generative Operational Semantics (ESOP'10, [pdf](./Compiler/Generative Operational Semantics.pdf))
-
+- Comprehensive synchronization elimination for Java (SCP'03, [pdf](http://www.cs.cmu.edu/~aldrich/papers/scp-camera.pdf))
