@@ -1,3 +1,5 @@
 - Xiaojie Guo, et al. *Integrating Formal Schedulability Analysis into a Verified OS Kernel*, CAV'19. ([paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-25543-5_28.pdf))
 - Yongwang Zhao, et al. *Rely-guarantee Reasoning about Concurrent Memory Management in Zephyr RTOS*, CAV'19. ([paper](http://act.buaa.edu.cn/zhaoyw/papers/CAV2019.pdf))
 - Ales Bizjak, et al. *Iron: Managing Obligations in Higher-Order Concurrent Separation Logic*, POPL'19 ([paper](https://iris-project.org/pdfs/2019-popl-iron-final.pdf)) ([ppt](https://jozefg.github.io/papers/2019-popl-iron-slides.pdf))
+- Ralf Jung, et al. *The Future is Ours: Prophecy Variables in Separation Logic*, POPL'20 ([paper](https://plv.mpi-sws.org/prophecies/paper.pdf))
+- Gilles Barthe. *Formal Verification of a Constant-Time Preserving C Compiler*, POPL'20 ([paper](https://eprint.iacr.org/2019/926.pdf))
