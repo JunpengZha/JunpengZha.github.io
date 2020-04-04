@@ -26,7 +26,8 @@
 
 ##### OS Kernel Verification
 
-- Ronghui Gu, et al. *Certifed Concurrent Abstraction Layers* ([copy](./public_html/OSVeri/Certified_Concurrent_Abstract_Layer))
+- Ronghui Gu, et al. *Deep Speciﬁcations and Certiﬁed Abstraction Layers* ([copy](./public_html/OSVeri/dscal-tr.pdf))
+- Ronghui Gu, et al. *Certifed Concurrent Abstraction Layers* ([copy](./public_html/OSVeri/Certified_Concurrent_Abstract_Layer.pdf))
 - [Preemptive OS Kernel Verification Framework](./public_html/OSVeri/framework.pdf) (here is a [book](./public_html/OSVeri/uCOS-III.pdf) introducing uCos-III)
 - Hao Chen, et al. *Toward Compositional Veriﬁcation of Interruptible OS Kernels and Device Drivers* ([copy](./public_html/OSVeri/Toward_Compositional_Veriﬁcation_of_Interruptible_OS_Kernels_and_Device_Drivers.pdf))
 
