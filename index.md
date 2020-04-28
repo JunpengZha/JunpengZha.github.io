@@ -1,7 +1,7 @@
 # Junpeng Zha （查君鹏）
 > E-mail: jpzha@smail.nju.edu.cn
 
-I am now a doctor student in Nanjing University. My research interests are in the area of formal methods, programming language and building high-confident software. Building high-confident software has been focused by all over the world, because of the widely use of computer system. And formal verification is based on rigorous mathematical theories and methods and can provide a strong guarantee for the correctness of software.  
+I am now a doctor student in Nanjing University. My research interests are in the area of formal methods, programming language and building high-confident software. Building high-confident software has been focused by all over the world, because of the widely use of computer system. And formal verification is based on rigorous mathematical theories and methods and can provide a strong guarantee for the correctness of software.  Here is my [CV](mycv.pdf).
 
 ### Education
 
