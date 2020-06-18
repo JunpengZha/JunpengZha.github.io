@@ -39,6 +39,8 @@
 
 ##### Relaxed Memory Model
 
+- Sung-Hwan Lee, et al. *Promising2.0: Global Optimizations in Relaxed Memory Concurrency* ([copy](./public_html/mem_model/promising2.pdf))
+- Conrad Watt, et al. *Repairing and Mechanising the JavaScript Relaxed Memory Model* ([copy](./public_html/mem_model/JavaScript-Relaxed-Memory-Model-PLDI-2020.pdf)) 
 - Jeehoon Kang, et al. *A Promising Semantics for Relaxed-Memory Concurrency* ([copy](./public_html/mem_model/A_Promising_Semantics_for_Relaxed-Memory_Concurrency.pdf))
 - Kasper Svendsen, et al. *A Separation Logic for a Promising Semantics* ([copy](./public_html/mem_model/A_Separation_Logic_for_a_Promising_Semantics.pdf))
 - Anton Podkopaev, et al. *Bridging the Gap between Programming Languages and Hardware Weak Memory Models* ([copy](./public_html/mem_model/pl_mem.pdf))
