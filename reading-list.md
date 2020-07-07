@@ -24,6 +24,10 @@
 - [Stack-Aware Compcert](./public_html/CompCert/An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code.pdf)
 - [Oracle Semantics](https://www.cs.princeton.edu/~appel/papers/concurrent.pdf) (here is a local [copy](./public_html/CompCert/Oracle-Semantics.pdf)) 
 
+##### Other works about compiler verification
+
+- [Crellvm:Verified CredibleCompilationforLLVM](https://sf.snu.ac.kr/publications/crellvm.pdf)
+
 ##### OS Kernel Verification
 
 - Ronghui Gu, et al. *Deep Speciﬁcations and Certiﬁed Abstraction Layers* ([copy](./public_html/OSVeri/dscal-tr.pdf))
