@@ -26,7 +26,7 @@
 
 ##### Other works about compiler verification
 
-- [Crellvm:Verified CredibleCompilationforLLVM](https://sf.snu.ac.kr/publications/crellvm.pdf)
+- [Crellvm:Verified Credible Compilation for LLVM](https://sf.snu.ac.kr/publications/crellvm.pdf)
 
 ##### OS Kernel Verification
 
@@ -56,6 +56,11 @@
 - Viktor Vafeiadis, et al. *Relaxed Separation Logic: A Program Logic for C11 Concurrency* ([copy](./public_html/mem_model/Relaxed Separation Logic.pdf))
 - [Lecture : Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
 - [Taming release-acquire consistency](https://www.cs.tau.ac.il/~orilahav/papers/popl16.pdf)
+
+##### Static Analysis for Concurrent Program
+
+- [Static analysis by abstract interpetation of concurrent program](./Static analysis by abstract interpetation of concurrent program.pdf)
+- [Static analysis of concurrent programs based on behavioral type systems](./Static analysis of concurrent programs based on behavioral type systems.pdf)
 
 ##### Latex
 
