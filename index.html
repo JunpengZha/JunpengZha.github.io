@@ -16,6 +16,7 @@ a:active, a:hover { outline: 0px; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
 @media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
@@ -24,7 +25,7 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
 button, input, select, textarea { color: inherit; font: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
@@ -47,7 +48,7 @@ sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); 
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px !important; }
+figure > table { margin: 0px; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
@@ -86,8 +87,9 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -152,6 +154,9 @@ svg[id^="mermaidChart"] { line-height: 1em; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
 
 
 /* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
@@ -160,6 +165,10 @@ mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 /* =========== */
 
+/* pt-serif-regular - latin */
+/* pt-serif-italic - latin */
+/* pt-serif-700 - latin */
+/* pt-serif-700italic - latin */
 :root {
 	--active-file-bg-color: #dadada;
 	--active-file-bg-color: rgba(32, 43, 51, 0.63);
@@ -727,10 +736,15 @@ input {
 	color: #777;
 }
 
+.searchpanel-search-option-btn.active {
+	background: #777;
+	color: white;
+}
+
 
 </style>
 </head>
-<body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name="junpeng-zha-查君鹏）" class="md-header-anchor"></a><span>Junpeng Zha （查君鹏）</span></h1><blockquote><p><span>E-mail: </span><a href='mailto:jpzha@smail.nju.edu.cn' target='_blank' class='url'>jpzha@smail.nju.edu.cn</a></p></blockquote><p><span>I am now a doctor student in Nanjing University. My research interests are in the area of formal methods, programming language and building high-confident software. Building high-confident software has been focused by all over the world, because of the widely use of computer system. And formal verification is based on rigorous mathematical theories and methods and can provide a strong guarantee for the correctness of software.  Here is my </span><a href='mycv.pdf'><span>CV</span></a><span>.</span></p><h3><a name="education" class="md-header-anchor"></a><span>Education</span></h3><ul><li><p><span>2019-present, </span><strong><span>PhD Candidate</span></strong><span>, </span><em><span>Computer Science</span></em><span>, Nanjing University </span></p><ul><li><span>Advisor : </span><a href='http://cs.nju.edu.cn/xyfeng'><span>Prof. Xinyu Feng</span></a></li></ul></li><li><p><span>2016-2019, </span><strong><span>Master&#39;s Degree</span></strong><span>, </span><em><span>Computer Science</span></em><span>, University of Science and Technology of China</span></p><ul><li><span>Thesis title : Formal Verification of SPARCv8 Assembly Code</span></li><li><span>Advisor : </span><a href='http://cs.nju.edu.cn/xyfeng'><span>Prof. Xinyu Feng</span></a></li></ul></li><li><p><span>2012-2016, </span><strong><span>Bachelor&#39;s Degree</span></strong><span>, </span><em><span>Software Engineering</span></em><span>, Shandong University at Weihai</span></p><ul><li><span>Excellent Undergraduate of Shandong University, 2016</span></li></ul></li></ul><h3><a name="publication" class="md-header-anchor"></a><span>Publication </span></h3><ul><li><span>Hanru Jiang, Hongjin Liang, Siyang Xiao, </span><strong><span>Junpeng Zha</span></strong><span>, Xinyu Feng. Towards Certified Separate Compilation for Concurrent Programs. </span><em><span>In Proc. 40th ACM SIGPLAN Conference on Programming Language Design and Implementation</span></em><span> (</span><strong><span>PLDI&#39;19</span></strong><span>), Phoenix, Arizona, USA, June 2019. (</span><em><span>one of six 2019 PLDI distinguished paper</span></em><span>) (</span><a href='https://plax-lab.github.io/publications/ccc/'><span>project</span></a><span>)</span></li><li><strong><span>Junpeng Zha</span></strong><span>, Xinyu Feng, and Lei Qiao. Modular Verification of SPARCv8 Code. </span><em><span>16th Asian Symposium on Programming Languages and Systems</span></em><span> (</span><strong><span>APLAS&#39;18</span></strong><span>), Wellington, New Zealand, pages 245-263, December 2018. (</span><a href='./public_html/SPARC/paper_28.pdf'><span>copy</span></a><span>) (</span><a href='sparcv8.html'><span>more</span></a><span> informations about SPARCv8)</span></li></ul><h3><a name="here-is-a-reading-listreading-listhtml" class="md-header-anchor"></a><span>Here is a reading </span><a href='reading-list.html'><span>list</span></a></h3><h3><a name="possible-research-works-in-my-phd" class="md-header-anchor"></a><span>Possible Research Works in My PhD</span></h3><ul><li><span>Let the CASCompCert supports more </span><a href='optimization-concurrent-prog.html'><span>optimizations for concurrent program</span></a><span> ?</span></li></ul><p>&nbsp;</p></div>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><h1><a name="junpeng-zha-查君鹏）" class="md-header-anchor"></a><span>Junpeng Zha （查君鹏）</span></h1><blockquote><p><span>E-mail: </span><a href='mailto:jpzha@smail.nju.edu.cn' target='_blank' class='url'>jpzha@smail.nju.edu.cn</a></p></blockquote><p><span>I am now a doctor student in Nanjing University. My research interests are in the area of formal methods, programming language and building high-confident software. Building high-confident software has been focused by all over the world, because of the widely use of computer system. And formal verification is based on rigorous mathematical theories and methods and can provide a strong guarantee for the correctness of software.  Here is my </span><a href='mycv.pdf'><span>CV</span></a><span>.</span></p><h3><a name="education" class="md-header-anchor"></a><span>Education</span></h3><ul><li><p><span>2019-present, </span><strong><span>PhD Candidate</span></strong><span>, </span><em><span>Computer Science</span></em><span>, Nanjing University </span></p><ul><li><span>Advisor : </span><a href='http://cs.nju.edu.cn/xyfeng'><span>Prof. Xinyu Feng</span></a></li></ul></li><li><p><span>2016-2019, </span><strong><span>Master&#39;s Degree</span></strong><span>, </span><em><span>Computer Science</span></em><span>, University of Science and Technology of China</span></p><ul><li><span>Thesis title : Formal Verification of SPARCv8 Assembly Code</span></li><li><span>Advisor : </span><a href='http://cs.nju.edu.cn/xyfeng'><span>Prof. Xinyu Feng</span></a></li></ul></li><li><p><span>2012-2016, </span><strong><span>Bachelor&#39;s Degree</span></strong><span>, </span><em><span>Software Engineering</span></em><span>, Shandong University at Weihai</span></p><ul><li><span>Excellent Undergraduate of Shandong University, 2016</span></li></ul></li></ul><h3><a name="publication" class="md-header-anchor"></a><span>Publication </span></h3><ul><li><strong><span>Junpeng Zha</span></strong><span>, Xinyu Feng, and Lei Qiao. Modular Verification of SPARCv8 Code.  </span><em><span>Journal of Computer Science and Technology (Special Section on Software System 2020)</span></em><span>, Nov 2020, 35(6): 1382-1405. </span></li><li><span>Hanru Jiang, Hongjin Liang, Siyang Xiao, </span><strong><span>Junpeng Zha</span></strong><span>, Xinyu Feng. Towards Certified Separate Compilation for Concurrent Programs. </span><em><span>In Proc. 40th ACM SIGPLAN Conference on Programming Language Design and Implementation</span></em><span> (</span><strong><span>PLDI&#39;19</span></strong><span>), Phoenix, Arizona, USA, June 2019. (</span><em><span>one of six 2019 PLDI distinguished paper</span></em><span>) (</span><a href='https://plax-lab.github.io/publications/ccc/'><span>project</span></a><span>)</span></li><li><strong><span>Junpeng Zha</span></strong><span>, Xinyu Feng, and Lei Qiao. Modular Verification of SPARCv8 Code. </span><em><span>16th Asian Symposium on Programming Languages and Systems</span></em><span> (</span><strong><span>APLAS&#39;18</span></strong><span>), Wellington, New Zealand, pages 245-263, December 2018. (</span><a href='./public_html/SPARC/paper_28.pdf'><span>copy</span></a><span>) (</span><a href='sparcv8.html'><span>more</span></a><span> informations about SPARCv8)</span></li></ul><h3><a name="here-is-a-reading-listreading-listhtml" class="md-header-anchor"></a><span>Here is a reading </span><a href='reading-list.html'><span>list</span></a></h3><h3><a name="possible-research-works-in-my-phd" class="md-header-anchor"></a><span>Possible Research Works in My PhD</span></h3><ul><li><span>Let the CASCompCert supports more </span><a href='optimization-concurrent-prog.html'><span>optimizations for concurrent program</span></a><span> ?</span></li></ul><p>&nbsp;</p></div>
 </body>
 </html>
