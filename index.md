@@ -15,10 +15,23 @@ I am now a doctor student in Nanjing University. My research interests are in th
 
 ### Publication 
 
-- **Junpeng Zha**, Xinyu Feng, and Lei Qiao. Modular Verification of SPARCv8 Code.  *Journal of Computer Science and Technology (Special Section on Software System 2020)*, Nov 2020, 35(6): 1382-1405. 
+- **Junpeng Zha**, Xinyu Feng, and Lei Qiao. 
 
-- Hanru Jiang, Hongjin Liang, Siyang Xiao, **Junpeng Zha**, Xinyu Feng. Towards Certified Separate Compilation for Concurrent Programs. *In Proc. 40th ACM SIGPLAN Conference on Programming Language Design and Implementation* (**PLDI'19**), Phoenix, Arizona, USA, June 2019. (*one of six 2019 PLDI distinguished paper*) ([project](https://plax-lab.github.io/publications/ccc/))
-- **Junpeng Zha**, Xinyu Feng, and Lei Qiao. Modular Verification of SPARCv8 Code. *16th Asian Symposium on Programming Languages and Systems* (**APLAS'18**), Wellington, New Zealand, pages 245-263, December 2018. ([copy](./public_html/SPARC/paper_28.pdf)) ([more](sparcv8.html) informations about SPARCv8)
+  Modular Verification of SPARCv8 Code.  
+
+  *Journal of Computer Science and Technology (Special Section on Software System 2020)*, Nov 2020, 35(6): 1382-1405. 
+
+- Hanru Jiang, Hongjin Liang, Siyang Xiao, **Junpeng Zha**, Xinyu Feng. 
+
+  Towards Certified Separate Compilation for Concurrent Programs.  ([project page](https://plax-lab.github.io/publications/ccc/))
+
+  *In Proc. 40th ACM SIGPLAN Conference on Programming Language Design and Implementation* (**PLDI'19**), Phoenix, Arizona, USA, June 2019. (*one of six 2019 PLDI distinguished paper*)
+
+- **Junpeng Zha**, Xinyu Feng, and Lei Qiao. 
+
+  Modular Verification of SPARCv8 Code. ([copy](./public_html/SPARC/paper_28.pdf)) ([more](sparcv8.html) informations about SPARCv8)
+
+  *16th Asian Symposium on Programming Languages and Systems* (**APLAS'18**), Wellington, New Zealand, pages 245-263, December 2018. 
 
 ### Here is a reading [list](reading-list.html)
 
