@@ -27,6 +27,7 @@
 ##### Other works about compiler verification
 
 - [Crellvm:Verified Credible Compilation for LLVM](https://sf.snu.ac.kr/publications/crellvm.pdf)
+- Daniel Patterson and Amal Ahmed, et al. *The Next 700 Compiler Correctness Theorems (Funtional Pearl)* ([copy](./Compiler/next700ccc.pdf))
 
 ##### OS Kernel Verification
 
