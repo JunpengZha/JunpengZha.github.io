@@ -1,12 +1,4 @@
-- Semantics-Based Analysis for Optimizing Compilation of Concurrent Programs ([pdf](https://pdfs.semanticscholar.org/cb91/17a398e142dea57a97a92d075d830db5066c.pdf?_ga=2.123703691.1298892834.1567308069-184937594.1566390167))
-- Verifying Optimizations for Concurrent Programs ([pdf](https://core.ac.uk/download/pdf/62918927.pdf))
-- Validating Optimizations of Concurrent C/C++ Programs ([pdf](https://plv.mpi-sws.org/validc/paper.pdf))
-- Safe Optimisations for Shared-Memory Concurrent Programs ([pdf](https://www.cl.cam.ac.uk/~pes20/weakmemory/transsafety.pdf))
-- [Compiler Optimization](http://compileroptimizations.com/index.html)
-- Performance Evaluation of Intel R Transactional Synchronization Extensions for High-Performance Computing ([pdf](./Compiler/SC13-TSX.pdf))
-- Synchronization Transformations for Parallel Computing ([pdf](./Compiler/Synchronization Transformations for Parallel Computing.pdf))
-- Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it ([pdf](./Compiler/c11comp.pdf))
-- Removing Unnecessary Synchronization in Java ([pdf](./Compiler/Removing Unnecessary Synchronization in Java.pdf))
-- Compositional Verification of Compiler Optimisations on Relaxed Memory (ESOP'18, [pdf](./Compiler/Compositional Verification of Compiler Optimisations on Relaxed Memory.pdf))
-- Generative Operational Semantics (ESOP'10, [pdf](./Compiler/Generative Operational Semantics.pdf))
-- Comprehensive synchronization elimination for Java (SCP'03, [pdf](http://www.cs.cmu.edu/~aldrich/papers/scp-camera.pdf))
+## Verifying Optimizations of Concurrent Programs in the Promising Semantics
+
+- Coq code is available at: [promisingcomp-coq](./promisingcomp-coq/promisingcomp-coq.zip)
+- Html version of coq proof is available at: (promisingcomp-coqhtml)[./promisingcomp-coq/index.html]

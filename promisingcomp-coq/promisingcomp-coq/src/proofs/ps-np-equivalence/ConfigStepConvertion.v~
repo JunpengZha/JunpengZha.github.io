@@ -1,0 +1,36 @@
+Require Import sflib. 
+
+Require Import Axioms.
+Require Import Basic.
+Require Import DataStructure.
+Require Import Loc. 
+(* Require Import  *)
+Require Import Language.
+
+Require Import Time.
+Require Import Event.
+Require Import View.
+Require Import Cell.
+Require Import Memory.
+Require Import TView.
+Require Import Local.
+Require Import Thread.
+Require Import Configuration. 
+Require Import Behavior.
+Require Import NPConfiguration.
+Require Import NPBehavior.
+
+Require Import LibTactics.
+Require Import Reordering. 
+Require Import ps_to_np_thread.
+Require Import Omega.
+Require Import FulfillStep.
+Require Import WFConfig. 
+
+Lemma Config_aux_na_step_to_NPConfig_step
+      lo c b c'
+      (NA_AUX_STEP: Configuration.aux_step AuxEvent.na lo c c'):
+  NPConfiguration.step MachineEvent.silent lo
+                       (NPConfiguration.mk c b) (NPConfiguration.mk c' false).
+Proof.
+  

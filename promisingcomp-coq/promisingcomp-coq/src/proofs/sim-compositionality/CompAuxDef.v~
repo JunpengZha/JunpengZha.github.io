@@ -1,0 +1,39 @@
+Require Import sflib.
+
+Require Import Axioms.
+Require Import Basic.
+Require Import DataStructure.
+Require Import Loc.
+Require Import Language.
+
+Require Import Time.
+Require Import Event.
+Require Import View.
+Require Import Cell.
+Require Import Memory.
+Require Import TView.
+Require Import Local.
+Require Import Thread.
+Require Import Configuration.
+Require Import MsgMapping.
+Require Import DelaySet.
+Require Import NPConfiguration.
+
+Require Import LocalSim.
+Require Import GlobSim.
+Require Import ww_RF.
+Require Import LibTactics.
+
+
+(** auxiliary write-write race *) Print Language.step.
+Inductive aux_ww_race: forall (lo: Ordering.LocOrdMap) (c: Configuration.t), Prop :=
+| aux_ww_race_intro
+    lang ths tid st lc st' lc' sc' mem' stw loc val val'
+    (CTID: IdentMap.find tid ths = Some (existT _ lang st, lc))
+    (STEPS: rtc (Thread.all_step lo) (Thread.mk lang st lc sc mem) (Thread.mk lang st' lc' sc' mem'))
+    (WRITE: (Langauage.step lang) (ProgramEvent.write loc val Ordering.plain) st' stw)
+    (RC_MSG: Memory.get loc to mem' = Some (from, Message.concrete val' released)
+             /\ Memory.get loc to (Local.promises lc') = None)
+    (WWRC: Time.le (View.pln (TView.cur (Local.tview lc')) loc) to)
+  :
+    aux_ww_race lo (Configuration.mk ths tid sc mem)
