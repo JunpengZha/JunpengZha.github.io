@@ -5,8 +5,8 @@ I am now a doctor student in Nanjing University. My research interests are in th
 
 ### Education
 
-- 2019-present, **PhD Candidate**, *Computer Science*, Nanjing University 
-		+ Advisor : [Prof. Xinyu Feng](http://cs.nju.edu.cn/xyfeng)
+- 2019-present, **PhD Candidate**, *Computer Science*, Nanjing University
+	-  Advisor : [Prof. Xinyu Feng](http://cs.nju.edu.cn/xyfeng)
 - 2016-2019, **Master's Degree**, *Computer Science*, University of Science and Technology of China
   - Thesis title : Formal Verification of SPARCv8 Assembly Code
   - Advisor : [Prof. Xinyu Feng](http://cs.nju.edu.cn/xyfeng)
@@ -17,7 +17,7 @@ I am now a doctor student in Nanjing University. My research interests are in th
 
 - **Junpeng Zha**, Hongjin Liang, and Xinyu Feng. 
 
-  Verifying Optimizations of Concurrent Programs in the Promising Semantics.
+  Verifying Optimizations of Concurrent Programs in the Promising Semantics. ([project page](https://plax-lab.github.io/publications/promisingcomp/))
 
   *In Proc. 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation* (**PLDI'22**), San Diego, California, USA, pages 903-917, June 2022.
 
