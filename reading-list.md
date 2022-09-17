@@ -30,6 +30,14 @@
 - [Crellvm:Verified Credible Compilation for LLVM](https://sf.snu.ac.kr/publications/crellvm.pdf)
 - Daniel Patterson and Amal Ahmed, et al. *The Next 700 Compiler Correctness Theorems (Funtional Pearl)* ([copy](./Compiler/next700ccc.pdf))
 
+##### Compiler Testing and Validation
+
+- Xuejun Yang, et al. *Finding and Understanding Bugs in C Compilers* ([copy](./public_html/Compiler%20Testing%20and%20Validation/pldi11-preprint.pdf))
+- Robin Morisset, et al. *Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model* ([link](https://fzn.fr/projects/wmc/readings/pldi13.pdf))
+- Soham Chakraborty, et al. *Validating Optimizations of Concurrent C/C++ Programs* ([link](https://plv.mpi-sws.org/validc/paper.pdf))
+- Jeehoon Kang, et al. *Crellvm: Verified Credible Compilation for LLVM* ([link](https://sf.snu.ac.kr/crellvm/))
+- Nuno P. Lopes, et al. *Alive2: Bounded Translation Validation for LLVM* ([link](https://sf.snu.ac.kr/publications/alive2.pdf)) 
+
 ##### OS Kernel Verification
 
 - Ronghui Gu, et al. *Deep Speciﬁcations and Certiﬁed Abstraction Layers* ([copy](./public_html/OSVeri/dscal-tr.pdf))
