@@ -5,6 +5,7 @@
 - [arm manual](./public_html/ARM/arm_manual.pdf)
 - Anton Podkopaev, et al. *Promising Compilation to ARMv8 POP* (Extended Version) ([copy](./public_html/ARM/ecoop2017-arm-full.pdf))
 - Christonpher Pulte, et al. *Simplifying ARM Concurrency: Multicopy-Atomic Axiomatic and Operational Models for ARMv8* ([copy](./public_html/ARM/Simplifying-ARM-Concurrency-Multicopy-Atomic.pdf))
+- Christopher Pulte, et al. *Promising-ARM/RISC-V: A Simpler and Faster Operational Concurrency Model* ([copy](./public_html/mem_model/Promising-ARM_RISC-V.pdf)) ([coq impl](https://github.com/snu-sf/promising-arm/)) ([tr](https://www.cl.cam.ac.uk/~jp622/promising-arm-riscv.pdf))
 
 ##### Machine Code Verification 
 
@@ -44,12 +45,12 @@
 
 ##### Relaxed Memory Model
 
+- A Course of Weak Memory Concurrency ([link]([Weak Memory Consistency (mpi-sws.org)](https://people.mpi-sws.org/~viktor/wmc/)))
 - Sung-Hwan Lee, et al. *Promising2.0: Global Optimizations in Relaxed Memory Concurrency* ([copy](./public_html/mem_model/promising2.pdf))
 - Conrad Watt, et al. *Repairing and Mechanising the JavaScript Relaxed Memory Model* ([copy](./public_html/mem_model/JavaScript-Relaxed-Memory-Model-PLDI-2020.pdf)) 
 - Jeehoon Kang, et al. *A Promising Semantics for Relaxed-Memory Concurrency* ([copy](./public_html/mem_model/A_Promising_Semantics_for_Relaxed-Memory_Concurrency.pdf))
 - Kasper Svendsen, et al. *A Separation Logic for a Promising Semantics* ([copy](./public_html/mem_model/A_Separation_Logic_for_a_Promising_Semantics.pdf))
 - Anton Podkopaev, et al. *Bridging the Gap between Programming Languages and Hardware Weak Memory Models* ([copy](./public_html/mem_model/pl_mem.pdf))
-- Christopher Pulte, et al. *Promising-ARM/RISC-V: A Simpler and Faster Operational Concurrency Model* ([copy](./public_html/mem_model/Promising-ARM_RISC-V.pdf)) ([coq impl](https://github.com/snu-sf/promising-arm/)) ([tr](https://www.cl.cam.ac.uk/~jp622/promising-arm-riscv.pdf))
 - Azalea Raad, et al. *On Library Correctness under Weak Memory Consistency* ([copy](./public_html/mem_model/Libraries-POPL-2019.pdf))
 - Hans-J. Boehm, et al. *Threads Cannot be Implemented as a Library* ([copy](./public_html/mem_model/Threads_can't_be_implemented_as_a_library.pdf))
 - Mark Batty, et al. *Mathematizing C++ Concurrency* ([copy](./public_html/mem_model/Mathematizing C++ Concurrency.pdf))
@@ -62,6 +63,20 @@
 
 - [Static analysis by abstract interpetation of concurrent program](./Static analysis by abstract interpetation of concurrent program.pdf)
 - [Static analysis of concurrent programs based on behavioral type systems](./Static analysis of concurrent programs based on behavioral type systems.pdf)
+
+##### Machine Learning Compilation
+
+- Tianqi Chen, et al. *TVM: An Automated End-to-End Optimizing  Compiler for Deep Learning* ([copy](./public_html/MLC/osdi18-chen.pdf))
+
+##### Polyhedral Compilation
+
+- Chanadan Reddy, et al. *Polyhedral Compilation for Domain Specific Languages* ([copy](./public_html/Polyhedral-Compilation/Polyhedral%20Compilation%20for%20Domain%20Specific%20Languages.pdf))
+- Chris Lattner, et al. *MLIR: A Compiler Infrastructure for the End of Moore’s Law* ([copy](./public_html/Polyhedral-Compilation/MLIR-A Compiler Infrastructure for the End of Moore's Law.pdf))
+- *Polyhedral Compilation as a Design Pattern for Compiler Construction* ([copy](./public_html/Polyhedral-Compilation/albert_cohen_slides.pdf))
+
+##### Understanding of Undefined Behaviors
+
+- Xi Wang, et al. *Towards Optimization-Safe Systems: Analyzing the Impact of Undefined Behavior* ([copy](./public_html/Undefined%20behaviors/stack_sosp13.pdf))
 
 ##### Latex
 
