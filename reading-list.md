@@ -54,6 +54,8 @@
 ##### Relaxed Memory Model
 
 - A Course of Weak Memory Concurrency ([link]([Weak Memory Consistency (mpi-sws.org)](https://people.mpi-sws.org/~viktor/wmc/)))
+- A Course: Semantics and tools for low-level concurrent programming ([link]([Semantics and tools for low-level concurrent programming (fzn.fr)](https://fzn.fr/teaching/lyon13/)))
+- Morisset's PhD thesis. *Compiler Optimisations and Relaxed Memory Consistency Models* ([link]([morisset-phd.pdf (fzn.fr)](https://fzn.fr/students/morisset-phd.pdf)))
 - Sung-Hwan Lee, et al. *Promising2.0: Global Optimizations in Relaxed Memory Concurrency* ([copy](./public_html/mem_model/promising2.pdf))
 - Conrad Watt, et al. *Repairing and Mechanising the JavaScript Relaxed Memory Model* ([copy](./public_html/mem_model/JavaScript-Relaxed-Memory-Model-PLDI-2020.pdf)) 
 - Jeehoon Kang, et al. *A Promising Semantics for Relaxed-Memory Concurrency* ([copy](./public_html/mem_model/A_Promising_Semantics_for_Relaxed-Memory_Concurrency.pdf))
@@ -64,7 +66,6 @@
 - Mark Batty, et al. *Mathematizing C++ Concurrency* ([copy](./public_html/mem_model/Mathematizing C++ Concurrency.pdf))
 - [PhD thesis of Yang Zhang](./public_html/mem_model/张扬论文_v3.pdf)
 - Viktor Vafeiadis, et al. *Relaxed Separation Logic: A Program Logic for C11 Concurrency* ([copy](./public_html/mem_model/Relaxed Separation Logic.pdf))
-- [Lecture : Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
 - [Taming release-acquire consistency](https://www.cs.tau.ac.il/~orilahav/papers/popl16.pdf)
 
 ##### Static Analysis for Concurrent Program
