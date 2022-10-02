@@ -53,9 +53,9 @@
 
 ##### Relaxed Memory Model
 
-- A Course of Weak Memory Concurrency ([link]([Weak Memory Consistency (mpi-sws.org)](https://people.mpi-sws.org/~viktor/wmc/)))
-- A Course: Semantics and tools for low-level concurrent programming ([link]([Semantics and tools for low-level concurrent programming (fzn.fr)](https://fzn.fr/teaching/lyon13/)))
-- Morisset's PhD thesis. *Compiler Optimisations and Relaxed Memory Consistency Models* ([link]([morisset-phd.pdf (fzn.fr)](https://fzn.fr/students/morisset-phd.pdf)))
+- A Course of Weak Memory Concurrency ([link](https://people.mpi-sws.org/~viktor/wmc/))
+- A Course: Semantics and tools for low-level concurrent programming ([link](https://fzn.fr/teaching/lyon13/))
+- Morisset's PhD thesis. *Compiler Optimisations and Relaxed Memory Consistency Models* ([link](https://fzn.fr/students/morisset-phd.pdf))
 - Sung-Hwan Lee, et al. *Promising2.0: Global Optimizations in Relaxed Memory Concurrency* ([copy](./public_html/mem_model/promising2.pdf))
 - Conrad Watt, et al. *Repairing and Mechanising the JavaScript Relaxed Memory Model* ([copy](./public_html/mem_model/JavaScript-Relaxed-Memory-Model-PLDI-2020.pdf)) 
 - Jeehoon Kang, et al. *A Promising Semantics for Relaxed-Memory Concurrency* ([copy](./public_html/mem_model/A_Promising_Semantics_for_Relaxed-Memory_Concurrency.pdf))
