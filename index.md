@@ -23,7 +23,7 @@ I am now a doctor student in Nanjing University. My research interests are in th
 
 - **Junpeng Zha**, Xinyu Feng, and Lei Qiao. 
 
-  Modular Verification of SPARCv8 Code.  
+  Modular Verification of SPARCv8 Code.  ([copy](./public_html/2020-6-10-0536-3.pdf))
 
   *Journal of Computer Science and Technology (Special Section on Software System 2020)*, Nov 2020, 35(6): 1382-1405. 
 
