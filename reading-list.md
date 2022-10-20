@@ -51,6 +51,14 @@
 - [Concurrent Abstract Predicates](./public_html/Verify-C/CAP.pdf)
 - [iCAP:Impredicative Concurrent Abstract Predicates](./public_html/Verify-C/iCAP.pdf) (PPT slides [1](./public_html/Verify-C/iCAP-slides1.pdf) [2](./public_html/Verify-C/iCAP-slides2.pdf))
 
+##### Model Checking
+
+- Armin Biere, et al. *Symbolic Model Checking without BDDs* ([copy](./public_html/ModelChecking/Biere-TACAS99.pdf))
+- EVGENII MOISEENKO, et al. *Model Checking for a Multi-Execution Memory Model* (OOPSLA'22) ([pdf](https://people.mpi-sws.org/~viktor/papers/oopsla2022-wmc.pdf))
+- Michalis Kokologiannakis, et al. *GenMC: A model checker for weak memory models* ([html](https://plv.mpi-sws.org/genmc/))
+- Michalis Kokologiannakis, et al. *Effective stateless model checking for C/C++ concurrency* (POPL'18) ([html](https://plv.mpi-sws.org/rcmc/))
+- Michalis Kokologiannakis, et al. *HMC: Model Checking for Hardware Memory Models* ([pdf](https://people.mpi-sws.org/~viktor/papers/asplos2020-hmc.pdf))
+
 ##### Relaxed Memory Model
 
 - A Course of Weak Memory Concurrency ([link](https://people.mpi-sws.org/~viktor/wmc/))
