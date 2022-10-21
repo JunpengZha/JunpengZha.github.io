@@ -11,6 +11,7 @@
 
 - Yu Guo, et al. *Modular Verification of Concurrent Thread Management* (Extended Version) ([copy](./public_html/Certi-Machine-Code/Module_Verification_of_Concurrent_Thread_Management.pdf))
 - Ni, et al. *Using XCAP to Certify Realistic Systems Code: Machine Context Management* ([pdf](http://flint.cs.yale.edu/certikos/publications/mctxtr.pdf))
+- BO-YUAN HUANG, et al. *Instruction-Level Abstraction (ILA): A Uniform Specification for System-on-Chip (SoC) Verification* ([copy](.\public_html\Certi-Machine-Code\ILA.pdf))
 
 ##### CompCert 
 
@@ -58,6 +59,7 @@
 - Michalis Kokologiannakis, et al. *GenMC: A model checker for weak memory models* ([html](https://plv.mpi-sws.org/genmc/))
 - Michalis Kokologiannakis, et al. *Effective stateless model checking for C/C++ concurrency* (POPL'18) ([html](https://plv.mpi-sws.org/rcmc/))
 - Michalis Kokologiannakis, et al. *HMC: Model Checking for Hardware Memory Models* ([pdf](https://people.mpi-sws.org/~viktor/papers/asplos2020-hmc.pdf))
+- Jonas Oberhauser, et al. *VSync: Push-Button Verification and Optimization for Synchronization Primitives on Weak Memory Models* (ASPLOS'21) ([copy](./public_html/ModelChecking/VSync.pdf))
 
 ##### Relaxed Memory Model
 
