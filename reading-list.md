@@ -97,6 +97,14 @@
 
 - Xi Wang, et al. *Towards Optimization-Safe Systems: Analyzing the Impact of Undefined Behavior* ([copy](./public_html/Undefined%20behaviors/stack_sosp13.pdf))
 
+##### Compilation Techniques
+
+- [Parallelizing Compilers](https://cseweb.ucsd.edu//~berman/cse260/parcomp.html)
+
+  > A "parallelizing compiler" is typically a compiler that finds parallelism in a sequential program and generates appropriate code for a parallel computer.
+
+- [Parallelizing Compilers for Multicores](./Compiler/slides1-169.pdf)
+
 ##### Latex
 
 - [The Not So Short Introduction to LATEX](./public_html/Latex/lshort.pdf)
