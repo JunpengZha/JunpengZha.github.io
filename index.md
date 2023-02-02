@@ -1,11 +1,11 @@
 # Junpeng Zha （查君鹏）
 > E-mail: jpzha@smail.nju.edu.cn
 
-I am now a doctor student in Nanjing University. My research interests are in the area of formal methods, programming language and building high-confident software. Building high-confident software has been focused by all over the world, because of the widely use of computer system. And formal verification is based on rigorous mathematical theories and methods and can provide a strong guarantee for the correctness of software.  Here is my [CV](mycv.pdf).
+I received my Ph.D. degree from Nanjing University. My research interests are in the area of formal methods, programming language and building high-confident software. Building high-confident software has been focused by all over the world, because of the widely use of computer system. And formal verification is based on rigorous mathematical theories and methods and can provide a strong guarantee for the correctness of software.  Here is my [CV](mycv.pdf).
 
 ### Education
 
-- 2019-2022, **PhD Degree**, *Computer Science*, Nanjing University
+- 2019-2022, **Ph.D. Degree**, *Computer Science*, Nanjing University
 	-  Advisor : [Prof. Xinyu Feng](http://cs.nju.edu.cn/xyfeng)
 - 2016-2019, **Master's Degree**, *Computer Science*, University of Science and Technology of China
   - Thesis title : Formal Verification of SPARCv8 Assembly Code
@@ -41,7 +41,5 @@ I am now a doctor student in Nanjing University. My research interests are in th
 
 ### Here is a reading [list](reading-list.html)
 
-### <!--Possible Research Works in My PhD-->
-
-- <!--Let the CASCompCert supports more [optimizations for concurrent program](optimization-concurrent-prog.html) ?-->
+### <!--Possible Research Works in My PhD--><!--Let the CASCompCert supports more [optimizations for concurrent program](optimization-concurrent-prog.html) ?-->
 
